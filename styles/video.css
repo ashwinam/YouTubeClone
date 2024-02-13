@@ -5,10 +5,25 @@
   row-gap: 30px;
 }
 
+.video-thumbnails {
+  position: relative;
+}
+
 .thumbnail-image {
   width: 312px;
   height: 175px;
   border-radius: 10px;
+}
+
+.timestamp {
+  background-color: rgb(15, 15, 15);
+  color: white;
+  padding: 3px 4px;
+  font-size: 12px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 8px;
+  right: 33px;
 }
 
 .video-info {
@@ -29,6 +44,7 @@
 
 .video-related-info {
   flex: 1;
+  padding-right: 24px;
 }
 
 .video-title {
