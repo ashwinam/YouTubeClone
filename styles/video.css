@@ -1,5 +1,4 @@
 .video-container {
-  border: 2px solid red;
   display: inline-block;
 }
 
@@ -7,4 +6,53 @@
   width: 351px;
   height: 198px;
   border-radius: 10px;
+}
+
+.video-info {
+  display: flex;
+  flex-direction: row;
+  margin-top: 12px;
+  width: 351px;
+}
+
+.channel-image-container {
+  margin-right: 10px;
+}
+
+.channel-image {
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+}
+
+.video-title {
+  color: rgb(15, 15, 15);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.channel-name,
+.video-stat {
+  color: rgb(99, 99, 99);
+  margin-bottom: 3px;
+  font-size: 14px;
+}
+
+.channel-name {
+  display: flex;
+  align-items: center;
+}
+
+.verified-mark {
+  width: 14px;
+  height: 14px;
+  margin-left: 3px;
+  fill: rgb(96, 96, 96);
+  margin-top: 1px;
+}
+
+.middle-dot {
+  font-weight: bold;
 }
