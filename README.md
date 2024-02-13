@@ -14,4 +14,4 @@ This Website is a youtube web app clone, and this is made using the HTML5 &amp; 
 - Using Nested layout technique get the idea for vertical and horizontal layouts.
 
 Following the video layout design:-
-![Nested Layout drawing for video-grid-cmponent](<layouting\ images/image.png>)
+![Nested Layout drawing for video-grid-cmponent](<layouting images/image.png>)
