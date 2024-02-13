@@ -1,0 +1,10 @@
+.video-container {
+  border: 2px solid red;
+  display: inline-block;
+}
+
+.thumbnail-image {
+  width: 351px;
+  height: 198px;
+  border-radius: 10px;
+}
