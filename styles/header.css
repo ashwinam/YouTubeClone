@@ -7,9 +7,9 @@
   align-items: center;
 }
 
-.left-section {
+/* .left-section {
   background-color: lightcoral;
-}
+} */
 
 .header-icons {
   width: 25px;
@@ -21,9 +21,41 @@
 }
 
 .middle-section {
-  background-color: lightgreen;
+  display: flex;
+  align-items: center;
 }
 
-.right-section {
+.search-bar {
+  width: 500px;
+  padding: 10px 15px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 1px solid rgb(173, 173, 173);
+  font-size: 16px;
+}
+
+.search-bar::placeholder {
+  font-size: 15px;
+}
+
+.search-icon {
+  background-color: rgb(244, 240, 240);
+  padding-top: 8px;
+  padding-bottom: 7px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 1px solid rgb(173, 173, 173);
+  margin-left: -1px;
+}
+
+/* .right-section {
   background-color: lightsalmon;
+} */
+
+.user-profile {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
 }
