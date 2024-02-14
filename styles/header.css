@@ -1,0 +1,20 @@
+.header {
+  height: 60px;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-section {
+  background-color: lightcoral;
+}
+
+.middle-section {
+  background-color: lightgreen;
+}
+
+.right-section {
+  background-color: lightsalmon;
+}
