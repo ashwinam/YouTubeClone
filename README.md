@@ -15,3 +15,11 @@ This Website is a youtube web app clone, and this is made using the HTML5 &amp; 
 
 Following the video layout design:-
 ![Nested Layout drawing for video-grid-cmponent](<layouting images/image.png>)
+
+### 2) Header Component
+
+- Use the flexbox for layouts
+- use the nested layout technique to identify the design.
+
+Following is the header layout design:-
+![Nested Layout drawing for header-component](<layouting images/header.png>)
