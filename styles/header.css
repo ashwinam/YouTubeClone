@@ -11,6 +11,15 @@
   background-color: lightcoral;
 }
 
+.header-icons {
+  width: 25px;
+  height: 25px;
+}
+
+.youtube-icon {
+  width: 90px;
+}
+
 .middle-section {
   background-color: lightgreen;
 }
