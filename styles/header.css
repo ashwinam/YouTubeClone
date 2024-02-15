@@ -1,10 +1,11 @@
 .header {
-  height: 60px;
-  background-color: lightblue;
+  height: 50px;
+  /* background-color: lightblue; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 5px 25px;
 }
 
 /* .left-section {
@@ -14,6 +15,8 @@
 .header-icons {
   width: 25px;
   height: 25px;
+  margin-right: 20px;
+  fill: rgb(15, 15, 15);
 }
 
 .youtube-icon {
@@ -30,7 +33,7 @@
   padding: 10px 15px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  border: 1px solid rgb(173, 173, 173);
+  border: 1px solid rgb(221, 221, 221);
   font-size: 16px;
 }
 
@@ -39,20 +42,31 @@
 }
 
 .search-icon {
-  background-color: rgb(244, 240, 240);
-  padding-top: 8px;
-  padding-bottom: 7px;
+  background-color: rgb(240, 238, 238);
+  padding-top: 9px;
+  padding-bottom: 6px;
   padding-right: 20px;
   padding-left: 20px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  border: 1px solid rgb(173, 173, 173);
+  border: 1px solid rgb(221, 221, 221);
   margin-left: -1px;
 }
 
-/* .right-section {
-  background-color: lightsalmon;
-} */
+.mic-icon {
+  background-color: rgb(240, 238, 238);
+  margin-left: 15px;
+  height: 22px;
+  width: 22px;
+  padding: 7px;
+  border-radius: 40px;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
 
 .user-profile {
   width: 30px;
