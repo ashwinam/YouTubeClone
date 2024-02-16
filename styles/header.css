@@ -132,10 +132,11 @@
 }
 
 .search-icon-container .tooltip,
-.video-create-container .tooltip {
+.video-create-container .tooltip,
+.notification-container .tooltip {
   position: absolute;
   top: 60px;
-  left: 5px;
+  left: 0;
 }
 
 .mic-icon-container .tooltip {
@@ -146,6 +147,7 @@
 
 .search-icon-container:hover .tooltip,
 .mic-icon-container:hover .tooltip,
-.video-create-container:hover .tooltip {
+.video-create-container:hover .tooltip,
+.notification-container:hover .tooltip {
   opacity: 1;
 }
