@@ -119,9 +119,12 @@
   border-radius: 5px;
   pointer-events: none;
   opacity: 0;
+  white-space: nowrap;
+  text-align: center;
 }
 
-.search-icon-container {
+.search-icon-container,
+.mic-icon-container {
   display: flex;
   align-items: center;
   position: relative;
@@ -133,6 +136,13 @@
   left: 5px;
 }
 
-.search-icon-container:hover .tooltip {
+.mic-icon-container .tooltip {
+  position: absolute;
+  top: 60px;
+  left: -20px;
+}
+
+.search-icon-container:hover .tooltip,
+.mic-icon-container:hover .tooltip {
   opacity: 1;
 }
