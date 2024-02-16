@@ -1,16 +1,11 @@
 .header {
   height: 50px;
-  /* background-color: lightblue; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 5px 25px;
 }
-
-/* .left-section {
-  background-color: lightcoral;
-} */
 
 .header-icons {
   width: 25px;
