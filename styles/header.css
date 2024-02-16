@@ -8,7 +8,7 @@
   padding-bottom: 5px;
   padding-left: 15px;
   padding-right: 13px;
-  z-index: 100;
+  z-index: 300;
   background-color: white;
   position: sticky;
   top: 0;
@@ -108,4 +108,31 @@
   position: absolute;
   top: 5px;
   right: 12px;
+}
+
+.tooltip {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.604);
+  color: white;
+  font-size: 12px;
+  padding: 8px 6px;
+  border-radius: 5px;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.search-icon-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search-icon-container .tooltip {
+  position: absolute;
+  top: 60px;
+  left: 5px;
+}
+
+.search-icon-container:hover .tooltip {
+  opacity: 1;
 }
