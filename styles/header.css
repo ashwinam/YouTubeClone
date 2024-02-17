@@ -162,3 +162,9 @@
 .notification-container:hover .tooltip {
   opacity: 1;
 }
+
+@media (max-width: 630px) {
+  .middle-section {
+    display: none;
+  }
+}
