@@ -1,0 +1,44 @@
+/* video css file */
+@media (max-width: 1734px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 1408px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 1080px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 790px) {
+  .video-grid {
+    padding-left: 25px;
+  }
+}
+
+@media (max-width: 697px) {
+  .video-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Header css file */
+@media (max-width: 630px) {
+  .middle-section {
+    display: none;
+  }
+}
+
+/* Sidebar css file */
+@media (max-width: 790px) {
+  .sidebar {
+    display: none;
+  }
+}
