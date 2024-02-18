@@ -1,6 +1,6 @@
 # YouTubeClone
 
-This Website is a youtube web app clone, and this is made using the HTML5 &amp; CSS3.
+This Website is a youtube UI clone, and this is made using the HTML5 &amp; CSS3.
 
 ## MVP Components
 
@@ -23,3 +23,8 @@ Following the video layout design:-
 
 Following is the header layout design:-
 ![Nested Layout drawing for header-component](<layouting images/header.png>)
+
+### 3) Sidebar Component
+
+- Use the flexbox for layouts
+- use the nested layout technique to identify the design.
